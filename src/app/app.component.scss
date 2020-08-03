@@ -2,16 +2,18 @@ body.dx-viewport.mat-typography.dx-theme-generic.dx-theme-generic-typography.dx-
   margin: 20px !important;
 }
 .datagrid{
-  max-height:50vh !important;
+  max-height:50% !important;
   width: auto;
+  overflow: scroll !important;
 }
 .metric{
   display:flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 mat-card{
   border: 1px solid gray !important;
-  padding-top: 10px;
+  padding-top: 10px !important;
 }
 .firstRow{
   display: flex;
