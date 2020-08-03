@@ -1,0 +1,22 @@
+body.dx-viewport.mat-typography.dx-theme-generic.dx-theme-generic-typography.dx-color-scheme-light{
+  margin: 20px !important;
+}
+.datagrid{
+  max-height:50vh !important;
+  width: auto;
+}
+.metric{
+  display:flex;
+  flex-direction: row;
+}
+mat-card{
+  border: 1px solid gray !important;
+  padding-top: 10px;
+}
+.firstRow{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  justify-content: space-around;
+  align-items: center;
+}
